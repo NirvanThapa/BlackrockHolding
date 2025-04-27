@@ -235,7 +235,60 @@ nav ul li a:hover {
     color: #555;
     line-height: 1.6;
   }
-
+  
+  /* Team Section */
+  .team {
+    padding: 60px 0;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .team h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .team-member {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  
 /* Contact */
 .contact {
   padding: 80px 0;
